@@ -1,4 +1,8 @@
+<app-header></app-header>
+
 <h1>Film Collection</h1>
+
+<app-breadcrumbs filmTitle="Film's Title"></app-breadcrumbs>
 
 <ul>
   @for (film of films(); track $index) {
@@ -7,3 +11,5 @@
   </li>
   }
 </ul>
+
+<app-footer></app-footer>
